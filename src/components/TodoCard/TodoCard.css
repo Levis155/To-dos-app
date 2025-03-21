@@ -1,0 +1,77 @@
+.todo-card{
+    background-color: var(--black-color);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 40rem;
+    height: 20rem;
+}
+.todo-card-title-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todo-card-title, .todo-card-title-complete{
+    color: var(--white-color);
+    text-transform: capitalize;
+}
+.todo-card-title-complete{
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+}
+.todo-card-buttons{
+    display: flex;
+    gap: 2rem;
+}
+
+.todo-card-buttons button{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+.delete-svg{
+    font-size: 2.2rem;
+    color: red;
+}
+
+.check-svg{
+    font-size: 2.2rem;
+    color: green;
+}
+
+.pending-svg{
+    color: var(--purple-color);
+    font-size: 2.2rem;
+}
+.status{
+    color: var(--gray-light);
+    text-transform: capitalize;
+    padding: 1rem 0rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--gray-dark);
+}
+
+.span-incomplete{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--yellow-color);
+}
+
+.span-complete{
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--green-color);
+}
+
+.description-complete{
+    color: var(--gray-light);
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+}
+
+.description-incomplete{
+    color: var(--gray-light);
+}

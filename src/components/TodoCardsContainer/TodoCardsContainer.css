@@ -1,0 +1,38 @@
+.todo-cards-container{
+    padding: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--black-light);
+}
+.todo-cards-title-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--gray-dark);
+    padding: 2rem 0rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.todo-cards-title{
+    text-transform: capitalize;
+    color: var(--purple-color);
+}
+.todo-cards-button{
+    background-color: var(--black-color);
+    color: red;
+    border: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    font-family: var(--primary-font);
+}
+.todo-cards{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
