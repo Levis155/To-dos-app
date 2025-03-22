@@ -5,6 +5,7 @@
     padding: 2rem;
     width: 40rem;
     height: 20rem;
+    border-radius: 2rem;
 }
 .todo-card-title-buttons{
     display: flex;

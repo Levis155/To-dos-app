@@ -16,7 +16,7 @@ function TodoCardsContainer() {
       {todos.length !==0 && (
         <div className="todo-cards-title-btn">
           <h2 className="todo-cards-title">my todos</h2>
-          <button className="todo-cards-button" onClick={handleClearCompleteTodos}><RiDeleteBin6Line />clear complete todos</button>
+          <button className="todo-cards-button" onClick={handleClearCompleteTodos}><RiDeleteBin6Line />clear completed todos</button>
         </div>
       )}
 
