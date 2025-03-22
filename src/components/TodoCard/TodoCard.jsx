@@ -1,6 +1,5 @@
 import "./TodoCard.css";
-
-import useTodosStore from "../../Stores/TasksStore";
+import useTodosStore from "../../Stores/TodosStore";
 import { GiCheckMark } from "react-icons/gi";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { MdOutlinePendingActions } from "react-icons/md";

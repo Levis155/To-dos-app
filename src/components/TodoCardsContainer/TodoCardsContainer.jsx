@@ -1,5 +1,5 @@
 import TodoCard from "../TodoCard/TodoCard";
-import useTodosStore from "../../Stores/TasksStore";
+import useTodosStore from "../../Stores/TodosStore";
 import "./TodoCardsContainer.css";
 import { RiDeleteBin6Line } from "react-icons/ri";
 
