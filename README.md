@@ -1,8 +1,11 @@
-# React + Vite
+# Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Built this project as week 7's follow up assessment at Teach2Give boot camp. It was a follow up to learning state management in React and the Zustand library - a tool that helps distribute state to deeply nested components.
 
-Currently, two official plugins are available:
+# Interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="./src/assets/Screenshot (204).png" alt="">
+
+# Functionality
+
+<img src="./src/assets/Screenshot (206).png" alt="">
